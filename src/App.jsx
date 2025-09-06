@@ -4,7 +4,7 @@ import axios from 'axios';
 import './App.css';
 
 // IMPORTANT: Replace with your deployed backend URL
-const API_URL = 'https://crm-backend-lbfy.onrender.com/'; 
+const API_URL = 'https://crm-backend-lbfy.onrender.com'; 
 
 function App() {
   const [leads, setLeads] = useState([]);
